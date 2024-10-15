@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    background-color: #0452e8;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contato {
+    padding: 40px 20px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato label {
+    margin-bottom: 5px;
+}
+
+.contato input,
+.contato textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes-sociais li {
+    margin: 0 10px;
+}
+
+.redes-sociais a {
+    color: white;
+    text-decoration: none;
+}
